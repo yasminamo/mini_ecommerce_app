@@ -8,10 +8,9 @@ A Flutter e-commerce app that demonstrates product listing, shopping cart, and c
 1.Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mini_ecommerce_app.git
+git clone https://github.com/yasminamo/mini_ecommerce_app.git
 
 2.Navigate to the project folder:
-
 cd mini_ecommerce_app
 
 3.Install dependencies:
@@ -43,7 +42,6 @@ The app uses Provider for state management
 Why Provider?
 
 Because:
-
 Lightweight and simple to integrate with Flutter.
 Efficient for apps with small to medium state complexity.
 UI updates automatically when state changes.
