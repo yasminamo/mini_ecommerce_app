@@ -1,16 +1,51 @@
-# miniecommerce_app
+# Mini E-Commerce Flutter App
 
-A new Flutter project.
+A Flutter e-commerce app that demonstrates product listing, shopping cart, and checkout functionality.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
 
-A few resources to get you started if this is your first Flutter project:
+1.Clone the repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/YOUR_USERNAME/mini_ecommerce_app.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2.Navigate to the project folder:
+
+cd mini_ecommerce_app
+
+3.Install dependencies:
+flutter pub get
+
+4.Run the app:
+flutter run
+
+## API Endpoints Used
+
+Getallcategories: https://fakestoreapi.com/products/categories
+Get all products: https://fakestoreapi.com/products
+
+
+##Folder Structure
+gi
+lib/
+│
+├── Models/        # Data models (e.g., CartModel)
+├── Services/      # API calls 
+├── Providers/     # State management classes
+├── Screens/       # UI screens
+├── Widgets/       # Reusable widgets (CustomCard, AppBar, etc.)
+└── main.dart      # App entry point
+
+
+##State Management
+The app uses Provider for state management 
+Why Provider?
+
+Because:
+
+Lightweight and simple to integrate with Flutter.
+Efficient for apps with small to medium state complexity.
+UI updates automatically when state changes.
+
+
