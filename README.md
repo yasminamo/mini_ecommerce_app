@@ -46,18 +46,13 @@ Lightweight and simple to integrate with Flutter.
 Efficient for apps with small to medium state complexity.
 UI updates automatically when state changes.
 
+## Screenshots
 
-## 🖼 Screenshots  
+![Homescreen](assets/screenshots/home.png)
 
-### 🏠 Home Screen  
-<img src="https://github.com/yasminamo/mini_ecommerce_app/raw/main/assets/screenshots/home.png" width="300"/>
+![Cartscreen](assets/screenshots/cart.png)
 
-### 🛍 Product Details  
-<img src="https://github.com/yasminamo/mini_ecommerce_app/raw/main/assets/screenshots/product_card.png" width="300"/>
+![Emptycartcreen](assets/screenshots/emptycart.png)
 
-### 🛒 Empty Cart  
-<img src="https://github.com/yasminamo/mini_ecommerce_app/raw/main/assets/screenshots/emptycart.png" width="300"/>
-
-### 💳 Shopping Cart  
-<img src="https://github.com/yasminamo/mini_ecommerce_app/raw/main/assets/screenshots/cart.png" width="300"/>
+![Prodcts](assets/screenshots/product_card.png)
 
