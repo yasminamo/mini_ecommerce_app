@@ -28,19 +28,22 @@ class CustomeCard extends StatelessWidget {
           color: Colors.white,
           borderRadius: BorderRadius.circular(screenHeight * 0.015)),
       child: Column(
+        mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Padding(
-            padding: EdgeInsets.only(top: screenHeight * 0.013),
-            child: Center(
-              child: ClipRRect(
-                borderRadius: BorderRadius.vertical(
-                    top: Radius.circular(screenHeight * 0.01)),
-                child: Image.network(
-                  imageUrl,
-                  height: screenHeight * 0.18,
-                  width: screenWidth * 0.4,
-                  fit: BoxFit.contain,
+          Expanded(
+            child: Padding(
+              padding: EdgeInsets.all(screenHeight * 0.008),
+              child: Center(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.vertical(
+                      top: Radius.circular(screenHeight * 0.01)),
+                  child: Image.network(
+                    imageUrl,
+                    height: screenHeight * 0.18,
+                    width: screenWidth * 0.4,
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ),
             ),

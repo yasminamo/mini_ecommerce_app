@@ -46,9 +46,9 @@ class ShippingInformation extends StatelessWidget {
                 SizedBox(
                   width: screenWidth * 0.04,
                 ),
-                Text('****  ' '****  ' '****  ' '5124'),
+                Expanded(child: Text('**** ' '**** ' '**** ' '5124')),
                 SizedBox(
-                  width: screenWidth * 0.2,
+                  width: screenWidth * 0.1,
                 ),
                 Icon(Icons.keyboard_arrow_down_outlined),
               ],

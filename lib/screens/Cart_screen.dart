@@ -12,42 +12,69 @@ class CartPage extends StatelessWidget {
     final screenHeight = MediaQuery.of(context).size.height;
     final screenWidth = MediaQuery.of(context).size.width;
 
-    return Scaffold(
-      appBar: AppBar(
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.favorite_border_outlined),
-            iconSize: screenWidth * 0.06,
-          )
-        ],
-        title: Text(
-          'Cart',
-          style: TextStyle(
-              fontFamily: 'Manrope',
-              fontWeight: FontWeight.bold,
-              fontSize: screenWidth * 0.06,
-              color: Color(0xff1F1F1F)),
-        ),
-        centerTitle: true,
-        leading: IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.arrow_back_ios_new_outlined),
-          color: Colors.blueGrey,
-          iconSize: screenWidth * 0.05,
-        ),
-      ),
-      body: SafeArea(
-        child: cartProviders.items.isEmpty
-            ? Center(
-                child: Text(
-                  'Your cart is empty',
-                  style: TextStyle(fontSize: screenWidth * 0.045),
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(
+          actions: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: screenHeight * 0.07,
+                width: screenHeight * 0.07,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Colors.white,
+                  border: Border.all(color: Color(0xff1F1F1F14), width: 1.6),
                 ),
-              )
-            : SingleChildScrollView(
-                child: Padding(padding: EdgeInsets.all(12), child: CartItem()),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.favorite_border_outlined),
+                  iconSize: screenWidth * 0.06,
+                ),
               ),
+            )
+          ],
+          title: Text(
+            'Cart',
+            style: TextStyle(
+                fontFamily: 'Manrope',
+                fontWeight: FontWeight.bold,
+                fontSize: screenWidth * 0.06,
+                color: Color(0xff1F1F1F)),
+          ),
+          centerTitle: true,
+          leading: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: screenHeight * 0.07,
+              width: screenHeight * 0.07,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.white,
+                border: Border.all(color: Color(0xff1F1F1F14), width: 1.6),
+              ),
+              child: IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.arrow_back_ios_new_outlined),
+                color: Color(0xff000000),
+                iconSize: screenWidth * 0.04,
+              ),
+            ),
+          ),
+        ),
+        body: SafeArea(
+          child: cartProviders.items.isEmpty
+              ? Center(
+                  child: Text(
+                    'Your cart is empty',
+                    style: TextStyle(fontSize: screenWidth * 0.045),
+                  ),
+                )
+              : SingleChildScrollView(
+                  child:
+                      Padding(padding: EdgeInsets.all(12), child: CartItem()),
+                ),
+        ),
       ),
     );
   }

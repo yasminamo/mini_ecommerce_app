@@ -48,7 +48,9 @@ class LocationBar extends StatelessWidget {
                 Text(
                   ' Brisbane, Queeensland ',
                   style: TextStyle(
-                      color: Color(0xff1F1F1F), fontSize: screenHeight * 0.021),
+                      color: Color(0xff1F1F1F),
+                      fontSize: screenHeight * 0.018,
+                      fontWeight: FontWeight.w400),
                 ),
               ],
             )),
