@@ -50,14 +50,14 @@ UI updates automatically when state changes.
 ## Screenshots
 
 Home Screen:
-![Home Screen](/assets/screenshots/home.png)
+![Home Screen](https://github.com/yasminamo/mini_ecommerce_app/blob/main/assets/screenshots/home.png)
 
 Product Details:
-![Product Details](/assets/screenshots/product_card.png)
+![Product Details](https://github.com/yasminamo/mini_ecommerce_app/blob/main/assets/screenshots/product_card.png)
 
 Empty Cart:
-![Cart Screen](/assets/screenshots/emptycart.png)
+![Cart Screen](https://github.com/yasminamo/mini_ecommerce_app/blob/main/assets/screenshots/emptycart.png)
 
 Shopping Cart:
-![Cart Screen](/assets/screenshots/cart.png)
+![Cart Screen](https://github.com/yasminamo/mini_ecommerce_app/blob/main/assets/screenshots/cart.png)
 
