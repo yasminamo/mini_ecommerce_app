@@ -1,6 +1,6 @@
 # Mini E-Commerce Flutter App
 
-A Flutter e-commerce app that demonstrates product listing, shopping cart, and checkout functionality.
+A Flutter e-commerce app that demonstrates product listing, shopping cart.
 
 
 ## Setup Instructions
@@ -46,4 +46,18 @@ Lightweight and simple to integrate with Flutter.
 Efficient for apps with small to medium state complexity.
 UI updates automatically when state changes.
 
+
+## Screenshots
+
+Home Screen:
+![Home Screen](assets/screenshots/home.png)
+
+Product Details:
+![Product Details](assets/screenshots/product%20card.png)
+
+Empty Cart:
+![Cart Screen](assets/screenshots/emptycart.png)
+
+Shopping Cart:
+![Cart Screen](assets/screenshots/cart.png)
 
