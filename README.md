@@ -18,14 +18,16 @@ flutter pub get
 4.Run the app:
 flutter run
 
+
 ## API Endpoints Used
 
 Getallcategories: https://fakestoreapi.com/products/categories
 Get all products: https://fakestoreapi.com/products
 
 
+
 ##Folder Structure
-gi
+
 lib/
 │
 ├── Models/        # Data models (e.g., CartModel)
@@ -37,13 +39,17 @@ lib/
 
 
 ##State Management
+
 The app uses Provider for state management 
 Why Provider?
-
 Because:
-Lightweight and simple to integrate with Flutter.
-Efficient for apps with small to medium state complexity.
-UI updates automatically when state changes.
+1-Lightweight and simple to integrate with Flutter.
+2-Efficient for apps with small to medium state complexity.
+3-UI updates automatically when state changes.
+
+
+
+
 
 ## Screenshots
 
