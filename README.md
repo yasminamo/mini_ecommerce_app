@@ -50,14 +50,14 @@ UI updates automatically when state changes.
 ## Screenshots
 
 Home Screen:
-![Home Screen](assets/screenshots/home.png)
+![Home Screen](/assets/screenshots/home.png)
 
 Product Details:
-![Product Details](assets/screenshots/product_card.png)
+![Product Details](/assets/screenshots/product_card.png)
 
 Empty Cart:
-![Cart Screen](assets/screenshots/emptycart.png)
+![Cart Screen](/assets/screenshots/emptycart.png)
 
 Shopping Cart:
-![Cart Screen](assets/screenshots/cart.png)
+![Cart Screen](/assets/screenshots/cart.png)
 
