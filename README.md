@@ -53,7 +53,7 @@ Home Screen:
 ![Home Screen](assets/screenshots/home.png)
 
 Product Details:
-![Product Details](assets/screenshots/productcard.png)
+![Product Details](assets/screenshots/product_card.png)
 
 Empty Cart:
 ![Cart Screen](assets/screenshots/emptycart.png)
