@@ -47,17 +47,18 @@ Efficient for apps with small to medium state complexity.
 UI updates automatically when state changes.
 
 
-## Screenshots
+## Screenshots  
 
-Home Screen:
-![Home Screen](https://raw.githubusercontent.com/yasminamo/mini_ecommerce_app/refs/heads/main/assets/screenshots/home.png)
+**Home Screen:**  
+![Home Screen](https://github.com/yasminamo/mini_ecommerce_app/raw/main/assets/screenshots/home.png)  
 
-Product Details:
-![Product Details](https://raw.githubusercontent.com/yasminamo/mini_ecommerce_app/refs/heads/main/assets/screenshots/product_card.png)
+**Product Details:**  
+![Product Details](https://github.com/yasminamo/mini_ecommerce_app/raw/main/assets/screenshots/product_card.png)  
 
-Empty Cart:
-![Cart Screen](https://raw.githubusercontent.com/yasminamo/mini_ecommerce_app/refs/heads/main/assets/screenshots/emptycart.png)
+**Empty Cart:**  
+![Empty Cart](https://github.com/yasminamo/mini_ecommerce_app/raw/main/assets/screenshots/emptycart.png)  
 
-Shopping Cart:
-![Cart Screen](https://raw.githubusercontent.com/yasminamo/mini_ecommerce_app/refs/heads/main/assets/screenshots/cart.png)
+**Shopping Cart:**  
+![Shopping Cart](https://github.com/yasminamo/mini_ecommerce_app/raw/main/assets/screenshots/cart.png)
+
 
